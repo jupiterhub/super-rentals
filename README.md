@@ -1,3 +1,35 @@
+# Jupiter's Conclusion 
+The whole tutorial from the Ember site is useful to cover different cases and discusses core concepts of ember.
+The writing could've been easier by writing codes only on-demand (some codes will make sens only 2 chapters later).
+Nonetheless developing in Ember is complete, quick and intuitive (specially with the CLI creating classes for you)
+
+Chapters covered are
+ * Routing
+ * Templates
+ * Adapters
+ * Helpers (Component / Hash)
+ * Components
+ * Mirage
+ * DataStore
+ * Ember Data
+ * JSON API
+ * Ember Inflector Rules
+ * Acceptance Test
+  * ES2015 (former ES6)
+  * Controllers
+  * Map Integration
+  * Ember Concurrency
+  * Integration Test
+  * Wait Helper
+  * RSVP(resolve promise)
+  * Ember Observer
+  * Service
+  * Injections
+  * Unit Test (this.on)
+  * Nested Routes
+  * Bonus: Node/Surge along the way.
+
+
 # super-rentals
 
 This README outlines the details of collaborating on this Ember application.
