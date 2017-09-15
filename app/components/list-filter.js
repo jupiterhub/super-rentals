@@ -14,9 +14,9 @@ export default Ember.Component.extend({
       let filterInputValue = this.get('value');
       let filterAction = this.get('filter');
       filterAction(filterInputValue).then((resultsObj) => {
-      	if (resultsObj.query === filterInputValue) {
-			this.set('results', resultsObj.results);
-      	}
+        if (resultsObj.query === filterInputValue) {
+            this.set('results', resultsObj.results);
+        }
       });
     }
   }
