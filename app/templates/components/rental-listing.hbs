@@ -3,7 +3,8 @@
     <img src="{{rental.image}}" alt="">
     <small>View Larger</small>
   </a>
-  <h3>{{rental.title}}</h3>
+  <!-- rental object is serialzied to rental.id by default (you can explicitly specify for clarity) -->
+  <h3>{{#link-to "rentals.show" rental}}{{rental.title}}{{/link-to}}</h3>
   <div class="detail owner">
     <span>Owner:</span> {{rental.owner}}
   </div>
