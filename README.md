@@ -1,7 +1,11 @@
 # Jupiter's Conclusion 
+
 The whole tutorial from the Ember site is useful to cover different cases and discusses core concepts of ember.
 The writing could've been easier by writing codes only on-demand (some codes will make sens only 2 chapters later).
 Nonetheless developing in Ember is complete, quick and intuitive (specially with the CLI creating classes for you)
+
+* Working Superrentals available at http://jupiter-ember.surge.sh/
+
 
 Chapters covered are
  * Routing
