@@ -2,8 +2,8 @@ import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
 import Ember from 'ember'
 
-let StubMapsService = Ember.service.extend({
-  getMapsLocation(location) {
+let StubMapsService = Ember.Service.extend({
+  getMapElement(location) {
     this.set('calledWithLocation', location);
     // We create a div here to simulate our maps service,
     // which will create and then cache the map element

@@ -3,7 +3,7 @@ import Ember from 'ember'
 
 const DUMMY_ELEMENT = {};
 
-let MapUtilStub = Ember.Object.Extend({
+let MapUtilStub = Ember.Object.extend({
 	createMap(element, location) {
 		this.assert.ok(element, 'createMap called with element');
 		this.assert.ok(location, 'createMap called with location');
